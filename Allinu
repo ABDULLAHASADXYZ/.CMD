@@ -3,6 +3,10 @@ sudo rm /usr/bin/undefine
 sudo rm /usr/bin/Allinu
 
 git clone https://github.com/ABDULLAHASADXYZ/.CMD.git
+
+chmod +x .CMD/Allin
+chmod +x .CMD/undefine
+chmod +x .CMD/Allinu
 sudo cp .CMD/Allin /usr/bin
 sudo cp .CMD/undefine /usr/bin
 sudo cp .CMD/Allinu /usr/bin
