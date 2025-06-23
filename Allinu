@@ -2,4 +2,8 @@ sudo rm /usr/bin/Allin
 sudo rm /usr/bin/undefine
 sudo rm /usr/bin/Allinu
 
-git clone https://github.com/ABDULLAHASADXYZ/CMD.git
+git clone https://github.com/ABDULLAHASADXYZ/.CMD.git
+sudo cp .CMD/Allin /usr/bin
+sudo cp .CMD/undefine /usr/bin
+sudo cp .CMD/Allinu /usr/bin
+sudo rm -rf .CMD
