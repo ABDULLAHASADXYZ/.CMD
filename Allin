@@ -2,13 +2,14 @@
 
 # @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+34 @+13 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 953 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 @+62 895 2113 9534 881416 *๓๓ร🇲🇨ʀͬɪͥᴀͣɴᷠᴛͭʀͬɪͥ④①⑤🇧🇷 415ฬ๓๓*
 
-r="\033[1;31m"  # Bold Red
-g="\033[1;32m"  # Bold Green
-y="\033[1;33m"  # Bold Yellow
-b="\033[1;34m"  # Bold Blue
-p="\033[1;35m"  # Bold Purple (Magenta)
-n="\033[1;36m"  # Bold Cyan
-w="\033[0m"     # Reset (normal text)
+r="\033[1;31m"  
+g_backup="\033[1;32m" 
+g="\e[36;1m" 
+y="\033[1;33m"  
+b="\033[1;34m"
+p="\033[1;35m"
+n="\033[1;36m"
+w="\033[0m"     
 
 
 type_text() {
@@ -25,17 +26,8 @@ type_text() {
     sleep 0
     type_text "Connecting to Abdullah.net..."
     sleep 0.1
-    type_text "Accessing cyber.io.of..."
+    type_text "Accessing abdullah.net.io..."
     sleep 0.1
-    
-    for i in {1..15}; do
-        echo -n "█ "
-        for j in {1..10}; do
-            echo -n "$((RANDOM % 10)) "
-        done
-        echo
-        sleep 0.1
-    done
     type_text "Access Granted!"
     sleep 1
     type_text "Starting All In One..."
@@ -60,28 +52,28 @@ printf "\n ${g}"
                       ╹ ╹┗━┛╺┻┛┗━┛┗━╸┗━╸╹ ╹╹ ╹╹╹ ╹┗━╸ ╹ 
 "
 printf "\n ${b}"
-	printf "                https://www.instagram.com/cyber.io.of/\n"
+	printf "                https://www.instagram.com/abdullah.net.io/\n"
                  
 
 
 
 
-printf "${b}[${w}01${b}]${y} Imp Tool You Must INS\n"       
-printf "${b}[${w}02${b}]${y} XBOMB OPTIONAL\n"
-printf "${b}[${w}03${b}]${y} ZPHISHER INS\n"
-printf "${b}[${w}04${b}]${y} XHIDE URL SHORTNER OPTIONAL\n"
-printf "${b}[${w}05${b}]${y} Shark phishing & Camera Advanced INS\n"      
-printf "${b}[${w}06${b}]${y} Android Hacking Tool Windows INS\n" 
-printf "${b}[${w}07${b}]${y} Port Forwading Ssh INS\n"        
-printf "${b}[${w}08${b}]${y} Seeker Location & Device INFO INS\n"
-printf "${b}[${w}09${b}]${y} Storm Breaker INS\n"
-printf "${b}[${w}10${b}]${y} Port Forwading Cloudflared INS\n"  
-printf "${b}[${w}11${b}]${y} XBRUTER INS\n"
-printf "${b}[${w}12${b}]${y} Cupp INS\n"
-printf "${b}[${w}13${b}]${y} Instaloader\n"
-printf "${b}[${w}14${b}]${y} Port Forwading Packetriot INS\n"
-printf "${b}[${w}15${b}]${y} Contact Develepor\n" 
-printf "${b}[${w}16${b}]${y} Other Contact Options\n"
+printf "${w}[${g}01${w}]${r} Imp Tool You Must INS\n"       
+printf "${w}[${g}02${w}]${r} XBOMB OPTIONAL\n"
+printf "${w}[${g}03${w}]${r} ZPHISHER INS\n"
+printf "${w}[${g}04${w}]${r} XHIDE URL SHORTNER OPTIONAL\n"
+printf "${w}[${g}05${w}]${r} Shark phishing & Camera Advanced INS\n"      
+printf "${w}[${g}06${w}]${r} Android Hacking Tool Windows INS\n" 
+printf "${w}[${g}07${w}]${r} Port Forwading Ssh INS\n"        
+printf "${w}[${g}08${w}]${r} Seeker Location & Device INFO INS\n"
+printf "${w}[${g}09${w}]${r} Storm Breaker INS\n"
+printf "${w}[${g}10${w}]${r} Port Forwading Cloudflared INS\n"  
+printf "${w}[${g}11${w}]${r} XBRUTER INS\n"
+printf "${w}[${g}12${w}]${r} Cupp INS\n"
+printf "${w}[${g}13${w}]${r} Instaloader\n"
+printf "${w}[${g}14${w}]${r} Port Forwading Packetriot INS\n"
+printf "${w}[${g}15${w}]${r} Contact Develepor\n"
+printf "${w}[${g}16${w}]${r} Other Contact Options\n"
 
 read -p "Enter Your Choice: " choice
 
@@ -179,14 +171,24 @@ case $choice in
     pktriot configure
     ;;
     
-    15)  
+
+    15) 
     
-    firefox https://www.instagram.com/cyber.io.of/
+    firefox https://www.instagram.com/abdullah.net.io/
     ;;
     16)  
-    
     undefine
     ;;
+     
+
+    abdullah)
+    git clone https://github.com/ABDULLAHASADXYZ/abdullah.git
+    cd abdullah
+    chmod +x abdullah
+    sudo cp abdullah /usr/bin
+    git clone
+    ;;
+      
       *)
         echo "Invalid choice. Please choose 1, 2, or Other." | lolcat
         ;;
