@@ -72,8 +72,10 @@ printf "${w}[${g}11${w}]${r} XBRUTER INS\n"
 printf "${w}[${g}12${w}]${r} Cupp INS\n"
 printf "${w}[${g}13${w}]${r} Instaloader\n"
 printf "${w}[${g}14${w}]${r} Port Forwading Packetriot INS\n"
-printf "${w}[${g}15${w}]${r} Contact Develepor\n"
-printf "${w}[${g}16${w}]${r} Other Contact Options\n"
+printf "${w}[${g}15${w}]${r} Ig Reel Downloader\n"
+printf "${w}[${g}16${w}]${r} Contact Develepor\n"
+printf "${w}[${g}17${w}]${r} Other Contact Options\n"
+
 
 read -p "Enter Your Choice: " choice
 
@@ -172,15 +174,15 @@ case $choice in
     ;;
     
 
-    15) 
+    16) 
     
     firefox https://www.instagram.com/abdullah.net.io/
     ;;
-    16)  
+    17)  
     undefine
     ;;
      
-    17)
+    15)
     
     sudo apt update
     sudo apt install -y python3-pip ffmpeg
@@ -190,6 +192,7 @@ case $choice in
     git clone https://github.com/ABDULLAHASADXYZ/igdown.git
     chmod +x igdown/igdown
     sudo cp igdown/igdown /usr/bin
+    ;;
 
     
     abdullah)
