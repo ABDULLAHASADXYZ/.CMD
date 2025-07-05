@@ -180,15 +180,25 @@ case $choice in
     undefine
     ;;
      
+    17)
+    
+    sudo apt update
+    sudo apt install -y python3-pip ffmpeg
+    sudo apt install pipx
+    pipx ensurepath
+    pipx install yt-dlp
+    git clone https://github.com/ABDULLAHASADXYZ/igdown.git
+    chmod +x igdown/igdown
+    sudo cp igdown/igdown /usr/bin
 
+    
     abdullah)
     git clone https://github.com/ABDULLAHASADXYZ/abdullah.git
     cd abdullah
     chmod +x abdullah
     sudo cp abdullah /usr/bin
-    git clone
     ;;
-      
+       
       *)
         echo "Invalid choice. Please choose 1, 2, or Other." | lolcat
         ;;
