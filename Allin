@@ -148,9 +148,7 @@ case $choice in
       11)
           wget https://github.com/ABDULLAHASADXYZ/XBRUTE/archive/refs/heads/main.zip 
           unzip main.zip
-        unzip XBRUTE-main/XBRUTE.zip
-        rm -rf XBRUTE-main
-        rm main.zip
+          rm main.zip
         echo "XBRUTE Save In Your Local Directory After The Install Is Complete"
         ;;
      
